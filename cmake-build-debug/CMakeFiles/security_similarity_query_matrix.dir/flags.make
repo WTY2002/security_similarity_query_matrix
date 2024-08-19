@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include/eigen3
+CXX_INCLUDES = -I/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include -isystem /usr/local/include/eigen3
 
 CXX_FLAGS =  -Wall -Wextra -g -std=gnu++11 -fdiagnostics-color=always
 

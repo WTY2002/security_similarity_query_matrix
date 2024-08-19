@@ -1,6 +1,7 @@
-CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: \
- /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp \
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o: \
+ /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.cpp \
  /usr/include/stdc-predef.h \
+ /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.h \
  /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.h \
  /usr/include/c++/11/iostream \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
@@ -381,13 +382,10 @@ CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: \
  /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
- /usr/include/c++/11/bits/stl_numeric.h \
- /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.h \
- /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.h \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/fstream \
- /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \

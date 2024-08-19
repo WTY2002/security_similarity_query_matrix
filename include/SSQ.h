@@ -11,6 +11,15 @@
 #include<queue>
 #include <fstream>
 #include <string>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <sys/mman.h>
+#include <thread>
+#include <mutex>
+#include <atomic>
+#include <cmath>
+
+
 
 /**
  * @Method: readDataFromFile
@@ -18,7 +27,7 @@
  * @param char* filename 文件名
  * @return vector<vector<double>> doubles数据
  */
-vector<vector<double>> readDataFromFile(char* filename);
+vector<vector<double>> readDataFromFile(const char* filename);
 
 /**
  * @Method: readDataFromFile
@@ -30,7 +39,8 @@ vector<vector<double>> readDataFromFile(char* filename);
 vector<double> readDataFromFile(const char* filename, int lineNumber);
 
 /**
- * @Method: 读取数据集
+ * @Method: dealData
+ * @Description: 处理数据，包括读取数据、生成加密矩阵、加密数据
  * @param char* fileString 读取数据集的地址
  * @return 状态码，1：成功；0：失败
  */

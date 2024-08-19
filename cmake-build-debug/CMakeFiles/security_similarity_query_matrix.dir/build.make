@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG
+CMAKE_SOURCE_DIR = /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug
+CMAKE_BINARY_DIR = /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/security_similarity_query_matrix.dir/depend.make
@@ -70,46 +70,62 @@ include CMakeFiles/security_similarity_query_matrix.dir/progress.make
 include CMakeFiles/security_similarity_query_matrix.dir/flags.make
 
 CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/flags.make
-CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp
+CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp
 CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o -MF CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o.d -o CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o -c /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o -MF CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o.d -o CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o -c /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp
 
 CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp > CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp > CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.i
 
 CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp -o CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/test/main.cpp -o CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.s
 
 CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/flags.make
-CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o: /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp
+CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o: /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp
 CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o -MF CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o.d -o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o -c /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o -MF CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o.d -o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o -c /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp
 
 CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp > CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp > CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.i
 
 CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp -o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/Matrix_encryption.cpp -o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.s
+
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/flags.make
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o: /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.cpp
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o: CMakeFiles/security_similarity_query_matrix.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o -MF CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o.d -o CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o -c /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.cpp
+
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.cpp > CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.i
+
+CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/include/SSQ.cpp -o CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.s
 
 # Object files for target security_similarity_query_matrix
 security_similarity_query_matrix_OBJECTS = \
 "CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o" \
-"CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o"
+"CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o" \
+"CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o"
 
 # External object files for target security_similarity_query_matrix
 security_similarity_query_matrix_EXTERNAL_OBJECTS =
 
 security_similarity_query_matrix: CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o
 security_similarity_query_matrix: CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o
+security_similarity_query_matrix: CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o
 security_similarity_query_matrix: CMakeFiles/security_similarity_query_matrix.dir/build.make
 security_similarity_query_matrix: CMakeFiles/security_similarity_query_matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable security_similarity_query_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable security_similarity_query_matrix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/security_similarity_query_matrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +137,6 @@ CMakeFiles/security_similarity_query_matrix.dir/clean:
 .PHONY : CMakeFiles/security_similarity_query_matrix.dir/clean
 
 CMakeFiles/security_similarity_query_matrix.dir/depend:
-	cd /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles/security_similarity_query_matrix.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/CMakeFiles/security_similarity_query_matrix.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/security_similarity_query_matrix.dir/depend
 

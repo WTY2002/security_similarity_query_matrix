@@ -28,3 +28,4 @@ add_executable(security_similarity_query_matrix test/main.cpp
 
 # 链接Eigen库到可执行文件
 target_link_libraries(security_similarity_query_matrix PRIVATE Eigen3::Eigen)
+target_link_libraries(security_similarity_query_matrix PRIVATE -pthread)

@@ -1,4 +1,4 @@
-/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG -B /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG -B /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -10,4 +10,4 @@ CMake Deprecation Warning:
 
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
--- Build files have been written to: /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug
+-- Build files have been written to: /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug

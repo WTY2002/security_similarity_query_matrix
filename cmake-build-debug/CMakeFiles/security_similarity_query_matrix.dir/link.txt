@@ -1,1 +1,1 @@
-/usr/bin/g++  -Wall -Wextra -g CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o -o security_similarity_query_matrix 
+/usr/bin/g++  -Wall -Wextra -g CMakeFiles/security_similarity_query_matrix.dir/test/main.cpp.o CMakeFiles/security_similarity_query_matrix.dir/include/Matrix_encryption.cpp.o CMakeFiles/security_similarity_query_matrix.dir/include/SSQ.cpp.o -o security_similarity_query_matrix  -pthread 

@@ -1,4 +1,4 @@
-# Install script for directory: /root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG
+# Install script for directory: /root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/wty/security_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/wty/reverse_similarity_query_matrix/tmp/tmp.nqUSlISEZG/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
