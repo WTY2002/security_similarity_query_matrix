@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-11/root/usr/bin/c++ -fPIC  -Wall -Wextra -shared -Wl,-soname,libsecurity_similarity_query.so -o /root/project4/c/project/security_similarity_query_matrix/bin/libsecurity_similarity_query.so CMakeFiles/security_similarity_query.dir/include/Matrix_encryption.cpp.o CMakeFiles/security_similarity_query.dir/include/SSQ.cpp.o  -pthread 

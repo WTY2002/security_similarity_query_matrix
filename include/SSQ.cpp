@@ -6,6 +6,12 @@
 
 #include "SSQ.h"
 
+#ifdef _WIN32
+#define EXPORT_SYMBOL __declspec(dllexport)
+#else
+#define EXPORT_SYMBOL __attribute__((visibility("default")))
+#endif
+
 // 密文数据集
 vector<VectorXd> ciphertext;
 
@@ -26,7 +32,7 @@ struct Compare {
  * @param char* filename 文件名
  * @return vector<vector<double>> doubles数据
  */
-vector<vector<double>> readDataFromFile(char* filename) {
+vector<vector<double>> readDataFromFile1(char* filename) {
     vector<vector<double>> data_list;
     ifstream infile(filename);
 
@@ -59,7 +65,7 @@ vector<vector<double>> readDataFromFile(char* filename) {
  * @param int lineNumber 行号
  * @return vector<double> doubles数据
  */
-vector<double> readDataFromFile(const char* filename, int lineNumber) {
+vector<double> readDataFromFile2(const char* filename, int lineNumber) {
     ifstream infile(filename);
     string line;
     vector<double> result;
@@ -87,7 +93,7 @@ vector<double> readDataFromFile(const char* filename, int lineNumber) {
 int dealData(char* fileString) {
     auto start_time = chrono::high_resolution_clock::now();
     // 读取数据
-    vector<vector<double>> data_list = readDataFromFile(fileString);
+    vector<vector<double>> data_list = readDataFromFile1(fileString);
 
     // 获取结束时间点
     auto end_time = chrono::high_resolution_clock::now();
@@ -158,8 +164,8 @@ int dealData(char* fileString) {
  */
 int SSQ(char* fileString, char* resultFilePath) {
     vector<vector<double>> query_data(2); // 读取查询数据
-    query_data[0] = readDataFromFile(fileString, 1);
-    query_data[1] = readDataFromFile(fileString, 2);
+    query_data[0] = readDataFromFile2(fileString, 1);
+    query_data[1] = readDataFromFile2(fileString, 2);
 
     // 逆矩阵，用于解密
     MatrixXd encryptMatrixInverse = calculateInverseMatrix(encryptMatrix);
@@ -215,4 +221,12 @@ int SSQ(char* fileString, char* resultFilePath) {
         return 0;
     }
     return 1;
+}
+
+
+EXPORT_SYMBOL int init_algo(char* fileString) {
+    return dealData(fileString);
+}
+EXPORT_SYMBOL int query_algo(char* fileString, char* resultFilePath) {
+    return SSQ(fileString, resultFilePath);
 }
